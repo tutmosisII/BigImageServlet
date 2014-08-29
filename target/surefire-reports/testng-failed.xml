@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [co.edu.uelbosque.controller.TestFileManager]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="co.edu.uelbosque.controller.TestFileManager">
+        <methods>
+          <include name="debeCrearUnBufferDeLaImagen"/>
+        </methods>
+      </class> <!-- co.edu.uelbosque.controller.TestFileManager -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [co.edu.uelbosque.controller.TestFileManager] -->

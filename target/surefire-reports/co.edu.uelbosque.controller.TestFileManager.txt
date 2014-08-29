@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: co.edu.uelbosque.controller.TestFileManager
+-------------------------------------------------------------------------------
+Tests run: 101, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 112.036 sec <<< FAILURE!
+debeCrearUnBufferDeLaImagen(co.edu.uelbosque.controller.TestFileManager)  Time elapsed: 104.758 sec  <<< FAILURE!
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2271)
+	at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:113)
+	at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
+	at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:122)
+	at co.edu.uelbosque.controller.ImageManager.getImage(ImageManager.java:49)
+	at co.edu.uelbosque.controller.TestFileManager.debeCrearUnBufferDeLaImagen(TestFileManager.java:45)

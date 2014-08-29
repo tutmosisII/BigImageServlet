@@ -1,0 +1,2258 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager">
+              <span class="suite-name border-failed">co.edu.uelbosque.controller.TestFileManager</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-co.edu.uelbosque.controller.TestFileManager">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-co.edu.uelbosque.controller.TestFileManager">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-co.edu.uelbosque.controller.TestFileManager">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-co.edu.uelbosque.controller.TestFileManager">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-co.edu.uelbosque.controller.TestFileManager">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-co.edu.uelbosque.controller.TestFileManager">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-co.edu.uelbosque.controller.TestFileManager">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">101 methods, 1 failed,   100 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" class="hide-methods failed suite-co.edu.uelbosque.controller.TestFileManager"> (hide)</a> <!-- hide-methods failed suite-co.edu.uelbosque.controller.TestFileManager -->
+                      <a href="#" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" class="show-methods failed suite-co.edu.uelbosque.controller.TestFileManager"> (show)</a> <!-- show-methods failed suite-co.edu.uelbosque.controller.TestFileManager -->
+                    </span>
+                    <div class="method-list-content failed suite-co.edu.uelbosque.controller.TestFileManager">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="debeCrearUnBufferDeLaImagen">debeCrearUnBufferDeLaImagen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-co.edu.uelbosque.controller.TestFileManager -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" class="hide-methods passed suite-co.edu.uelbosque.controller.TestFileManager"> (hide)</a> <!-- hide-methods passed suite-co.edu.uelbosque.controller.TestFileManager -->
+                      <a href="#" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" class="show-methods passed suite-co.edu.uelbosque.controller.TestFileManager"> (show)</a> <!-- show-methods passed suite-co.edu.uelbosque.controller.TestFileManager -->
+                    </span>
+                    <div class="method-list-content passed suite-co.edu.uelbosque.controller.TestFileManager">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-co.edu.uelbosque.controller.TestFileManager" title="co.edu.uelbosque.controller.TestFileManager" hash-for-method="verificaQuelasInstanciasSenIguales">verificaQuelasInstanciasSenIguales</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-co.edu.uelbosque.controller.TestFileManager -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-co.edu.uelbosque.controller.TestFileManager" class="panel co.edu.uelbosque.controller.TestFileManager">
+          <div class="suite-co.edu.uelbosque.controller.TestFileManager-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">co.edu.uelbosque.controller.TestFileManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="debeCrearUnBufferDeLaImagen">
+                  </a> <!-- debeCrearUnBufferDeLaImagen -->
+                  <span class="method-name">debeCrearUnBufferDeLaImagen</span>
+                  <div class="stack-trace">java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2271)
+	at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:113)
+	at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
+	at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:122)
+	at co.edu.uelbosque.controller.ImageManager.getImage(ImageManager.java:49)
+	at co.edu.uelbosque.controller.TestFileManager.debeCrearUnBufferDeLaImagen(TestFileManager.java:45)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-co.edu.uelbosque.controller.TestFileManager-class-failed -->
+          <div class="suite-co.edu.uelbosque.controller.TestFileManager-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">co.edu.uelbosque.controller.TestFileManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaQuelasInstanciasSenIguales">
+                  </a> <!-- verificaQuelasInstanciasSenIguales -->
+                  <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-co.edu.uelbosque.controller.TestFileManager-class-passed -->
+        </div> <!-- panel co.edu.uelbosque.controller.TestFileManager -->
+        <div panel-name="test-xml-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;co.edu.uelbosque.controller.TestFileManager&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;co.edu.uelbosque.controller.TestFileManager&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- co.edu.uelbosque.controller.TestFileManager --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for co.edu.uelbosque.controller.TestFileManager</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for co.edu.uelbosque.controller.TestFileManager</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for co.edu.uelbosque.controller.TestFileManager</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_co.edu.uelbosque.controller.TestFileManager');
+function tableData_co.edu.uelbosque.controller.TestFileManager() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(101);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'debeCrearUnBufferDeLaImagen')
+data.setCell(0, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(0, 3, 104462);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(1, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(1, 3, 5010);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(2, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(2, 3, 5010);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(3, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(3, 3, 5010);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(4, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(4, 3, 5009);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(5, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(5, 3, 5008);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(6, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(6, 3, 5005);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(7, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(7, 3, 5005);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(8, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(8, 3, 4989);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(9, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(9, 3, 4988);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(10, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(10, 3, 4988);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(11, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(11, 3, 4981);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(12, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(12, 3, 4981);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(13, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(13, 3, 4970);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(14, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(14, 3, 4970);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(15, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(15, 3, 4969);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(16, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(16, 3, 4968);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(17, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(17, 3, 4946);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(18, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(18, 3, 4488);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(19, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(19, 3, 4238);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(20, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(20, 3, 4216);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(21, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(21, 3, 4102);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(22, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(22, 3, 3850);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(23, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(23, 3, 3849);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(24, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(24, 3, 3849);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(25, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(25, 3, 3714);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(26, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(26, 3, 3713);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(27, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(27, 3, 3713);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(28, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(28, 3, 3621);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(29, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(29, 3, 3598);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(30, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(30, 3, 3598);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(31, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(31, 3, 3463);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(32, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(32, 3, 3462);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(33, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(33, 3, 3347);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(34, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(34, 3, 3347);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(35, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(35, 3, 3326);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(36, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(36, 3, 3234);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(37, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(37, 3, 3233);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(38, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(38, 3, 3212);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(39, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(39, 3, 3212);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(40, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(40, 3, 3211);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(41, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(41, 3, 3097);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(42, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(42, 3, 3097);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(43, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(43, 3, 3077);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(44, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(44, 3, 3076);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(45, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(45, 3, 2961);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(46, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(46, 3, 2961);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(47, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(47, 3, 2868);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(48, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(48, 3, 2845);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(49, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(49, 3, 2732);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(50, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(50, 3, 2731);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(51, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(51, 3, 2634);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(52, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(52, 3, 2617);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(53, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(53, 3, 2616);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(54, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(54, 3, 2602);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(55, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(55, 3, 2595);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(56, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(56, 3, 2595);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(57, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(57, 3, 2595);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(58, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(58, 3, 2594);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(59, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(59, 3, 2594);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(60, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(60, 3, 2594);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(61, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(61, 3, 2594);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(62, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(62, 3, 2572);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(63, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(63, 3, 2344);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(64, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(64, 3, 2343);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(65, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(65, 3, 2343);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(66, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(66, 3, 2114);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(67, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(67, 3, 2114);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(68, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(68, 3, 1863);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(69, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(69, 3, 1591);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(70, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(70, 3, 1590);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(71, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(71, 3, 1339);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(72, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(72, 3, 1338);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(73, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(73, 3, 1247);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(74, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(74, 3, 1246);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(75, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(75, 3, 1225);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(76, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(76, 3, 1224);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(77, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(77, 3, 1088);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(78, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(78, 3, 973);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(79, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(79, 3, 973);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(80, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(80, 3, 836);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(81, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(81, 3, 745);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(82, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(82, 3, 739);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(83, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(83, 3, 722);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(84, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(84, 3, 701);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(85, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(85, 3, 700);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(86, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(86, 3, 585);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(87, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(87, 3, 585);
+data.setCell(88, 0, 88)
+data.setCell(88, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(88, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(88, 3, 495);
+data.setCell(89, 0, 89)
+data.setCell(89, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(89, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(89, 3, 494);
+data.setCell(90, 0, 90)
+data.setCell(90, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(90, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(90, 3, 493);
+data.setCell(91, 0, 91)
+data.setCell(91, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(91, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(91, 3, 471);
+data.setCell(92, 0, 92)
+data.setCell(92, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(92, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(92, 3, 449);
+data.setCell(93, 0, 93)
+data.setCell(93, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(93, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(93, 3, 289);
+data.setCell(94, 0, 94)
+data.setCell(94, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(94, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(94, 3, 289);
+data.setCell(95, 0, 95)
+data.setCell(95, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(95, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(95, 3, 289);
+data.setCell(96, 0, 96)
+data.setCell(96, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(96, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(96, 3, 289);
+data.setCell(97, 0, 97)
+data.setCell(97, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(97, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(97, 3, 281);
+data.setCell(98, 0, 98)
+data.setCell(98, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(98, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(98, 3, 280);
+data.setCell(99, 0, 99)
+data.setCell(99, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(99, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(99, 3, 280);
+data.setCell(100, 0, 100)
+data.setCell(100, 1, 'verificaQuelasInstanciasSenIguales')
+data.setCell(100, 2, 'co.edu.uelbosque.controller.TestFileManager')
+data.setCell(100, 3, 220);
+window.suiteTableData['co.edu.uelbosque.controller.TestFileManager']= { tableData: data, tableDiv: 'times-div-co.edu.uelbosque.controller.TestFileManager'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-co.edu.uelbosque.controller.TestFileManager">
+              </div> <!-- times-div-co.edu.uelbosque.controller.TestFileManager -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for co.edu.uelbosque.controller.TestFileManager</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-co.edu.uelbosque.controller.TestFileManager" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">co.edu.uelbosque.controller.TestFileManager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">debeCrearUnBufferDeLaImagen</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104974 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">104995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105015 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105096 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verificaQuelasInstanciasSenIguales</span>
+                <span class="method-start">105122 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
