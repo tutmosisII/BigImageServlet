@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="1" time="112.036" errors="0" skipped="0" tests="101" name="co.edu.uelbosque.controller.TestFileManager">
+<testsuite failures="0" time="5.47" errors="0" skipped="0" tests="101" name="co.edu.uelbosque.controller.TestFileManager">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/lib/jdk1.7.0_55/jre/lib/amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/aleon/NetBeansProjects/UnitTestServler"/>
+    <property name="user.dir" value="/home/aleon/NetBeansProjects/BigImageServlet"/>
     <property name="java.runtime.version" value="1.7.0_55-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/local/lib/jdk1.7.0_55/jre/lib/endorsed"/>
@@ -60,114 +60,105 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="104.758" classname="co.edu.uelbosque.controller.TestFileManager" name="debeCrearUnBufferDeLaImagen">
-    <failure message="Java heap space" type="java.lang.OutOfMemoryError">java.lang.OutOfMemoryError: Java heap space
-	at java.util.Arrays.copyOf(Arrays.java:2271)
-	at java.io.ByteArrayOutputStream.grow(ByteArrayOutputStream.java:113)
-	at java.io.ByteArrayOutputStream.ensureCapacity(ByteArrayOutputStream.java:93)
-	at java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:122)
-	at co.edu.uelbosque.controller.ImageManager.getImage(ImageManager.java:49)
-	at co.edu.uelbosque.controller.TestFileManager.debeCrearUnBufferDeLaImagen(TestFileManager.java:45)
-</failure>
-  </testcase>
-  <testcase time="0.169" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.17" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.177" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.396" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.397" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.397" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.404" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.433" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.561" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.561" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.652" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.653" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.653" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.683" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.744" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.809" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.94" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="0.94" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.067" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.152" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.152" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.188" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.188" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.316" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.316" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.573" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.574" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="1.853" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.006" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.007" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.233" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.234" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.234" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.482" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.482" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.482" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.482" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.483" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.483" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.483" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.483" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.512" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.523" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.554" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.616" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.641" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.641" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.769" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.803" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.935" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="2.935" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.029" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.029" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.059" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.06" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.147" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.147" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.183" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.183" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.184" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.279" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.309" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.309" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.44" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.441" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.525" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.565" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.566" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.689" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.689" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.69" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.044" classname="co.edu.uelbosque.controller.TestFileManager" name="debeCrearUnBufferDeLaImagen"/>
+  <testcase time="0" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.038" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.039" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.039" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.076" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.076" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.288" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.365" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.418" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.419" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.46" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.461" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.461" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.544" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.614" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.667" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.668" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.668" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.793" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.925" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.935" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="0.997" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.378" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.399" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.441" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.503" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.618" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.618" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.648" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.752" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.821" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.821" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.822" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.906" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="1.947" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.071" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.155" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.155" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.155" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.195" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.282" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.282" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.411" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.412" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.412" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.539" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.54" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.576" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.577" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.66" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.661" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.661" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.703" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.918" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.918" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="2.992" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.046" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.046" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.046" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.082" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.083" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.112" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.112" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.167" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.241" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.369" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.369" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.369" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.49" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.619" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.619" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.619" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.801" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
   <testcase time="3.814" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.814" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="3.815" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.077" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.195" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.225" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.384" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.86" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.86" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.861" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.862" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.862" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.897" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
-  <testcase time="4.927" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="3.942" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.004" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.025" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.064" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.125" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.126" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.126" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.252" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.275" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.275" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.32" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.407" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.407" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.407" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.448" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.448" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.448" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.697" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.826" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.827" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.912" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.912" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.954" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.955" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
+  <testcase time="4.955" classname="co.edu.uelbosque.controller.TestFileManager" name="verificaQuelasInstanciasSenIguales"/>
 </testsuite>
