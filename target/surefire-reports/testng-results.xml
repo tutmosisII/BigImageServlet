@@ -2,412 +2,412 @@
 <testng-results skipped="0" failed="0" total="101" passed="101">
   <reporter-output>
   </reporter-output>
-  <suite name="co.edu.uelbosque.controller.TestFileManager" duration-ms="5121" started-at="2014-09-02T00:34:05Z" finished-at="2014-09-02T00:34:11Z">
+  <suite name="co.edu.uelbosque.controller.TestFileManager" duration-ms="10923" started-at="2014-09-02T02:10:18Z" finished-at="2014-09-02T02:10:29Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="5121" started-at="2014-09-02T00:34:05Z" finished-at="2014-09-02T00:34:11Z">
+    <test name="Command line test" duration-ms="10923" started-at="2014-09-02T02:10:18Z" finished-at="2014-09-02T02:10:29Z">
       <class name="co.edu.uelbosque.controller.TestFileManager">
-        <test-method status="PASS" signature="debeCrearUnBufferDeLaImagen()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="debeCrearUnBufferDeLaImagen" duration-ms="46" started-at="2014-09-01T19:34:05Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="debeCrearUnBufferDeLaImagen()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="debeCrearUnBufferDeLaImagen" duration-ms="4214" started-at="2014-09-01T21:10:18Z" finished-at="2014-09-01T21:10:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- debeCrearUnBufferDeLaImagen -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1717" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4841" started-at="2014-09-01T21:10:23Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1717" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4838" started-at="2014-09-01T21:10:23Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3588" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2550" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4115" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4421" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1738" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2550" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1488" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4420" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4363" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4419" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4363" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2547" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2240" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2546" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2239" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4416" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2239" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4416" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1989" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="166" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2742" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="166" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2741" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1810" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="369" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="692" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2742" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3065" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2491" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2816" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2491" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2817" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2490" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2815" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="117" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="691" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="116" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2815" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="117" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="691" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3243" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2816" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="870" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2814" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="619" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3567" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2992" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1193" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2993" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1194" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2355" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3316" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2354" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="942" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4480" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2678" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4478" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2428" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4477" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4802" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4980" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:11Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="555" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4980" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:11Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="555" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2606" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="555" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="733" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3179" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2605" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="303" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="732" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1057" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="733" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1056" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="482" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1057" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="482" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3682" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3109" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3431" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3108" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3431" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3108" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3431" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3860" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3431" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="983" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="989" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4117" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3866" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1491" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2244" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4368" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1992" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="120" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="121" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2746" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4870" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4185" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4869" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1308" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3980" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1308" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2108" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1313" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4732" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1313" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1857" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4440" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1856" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4189" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1857" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2065" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4481" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4188" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4481" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4943" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4481" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="3069" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2610" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="194" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2609" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:08Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2819" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4985" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:11Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1929" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4984" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:11Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4555" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4985" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:11Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1928" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3111" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4554" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3111" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1678" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="487" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4304" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="487" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4304" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="486" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2432" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="7" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2432" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="6" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2432" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3134" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="56" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3134" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2180" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3637" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2181" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3637" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2934" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3636" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="4805" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3385" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2933" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3385" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2933" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3384" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="558" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1011" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4139" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="559" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4139" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2683" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4139" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2682" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1763" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="585" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1513" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2710" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="623" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="584" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="3249" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="581" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="372" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:06Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2704" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="2997" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:09Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="329" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4256" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="330" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="1381" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:07Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="1083" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->
-        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@9bb8a29]" name="verificaQuelasInstanciasSenIguales" duration-ms="4006" started-at="2014-09-01T19:34:06Z" finished-at="2014-09-01T19:34:10Z">
+        <test-method status="PASS" signature="verificaQuelasInstanciasSenIguales()[pri:0, instance:co.edu.uelbosque.controller.TestFileManager@3ca55242]" name="verificaQuelasInstanciasSenIguales" duration-ms="2727" started-at="2014-09-01T21:10:24Z" finished-at="2014-09-01T21:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verificaQuelasInstanciasSenIguales -->

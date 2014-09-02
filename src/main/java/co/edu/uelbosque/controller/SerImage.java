@@ -38,7 +38,7 @@ public class SerImage extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("image/png");
         try {
-            String path=this.getServletContext().getRealPath("/")+"/WEB-INF/resources/108.jpg";
+            String path=this.getServletContext().getRealPath("/")+"/WEB-INF/resources/BigImageMix.png";
             ImageManager im=ImageManager.getInstance(new File(path));
             response.getOutputStream().write(im.getImage());
         } catch (InterruptedException ex) {

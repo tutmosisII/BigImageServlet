@@ -18,18 +18,20 @@ class ImageManager {
 
     private static ImageManager singleton;
     private static Boolean control = true;
-    ByteArrayOutputStream bo;
-
+    
+    byte img[];
+    
     private ImageManager(File f) throws IOException {
 
-        bo = new ByteArrayOutputStream();
+        ByteArrayOutputStream bo = new ByteArrayOutputStream(650000000);
         int x;
         FileInputStream fin = new FileInputStream(f);
-        
+
         while ((x = fin.read()) != -1) {
+           
             bo.write(x);
         }
-
+        img=bo.toByteArray();
     }
 
     /**
@@ -39,7 +41,7 @@ class ImageManager {
      */
     protected byte[] getImage() throws IOException {
 
-        return bo.toByteArray();
+        return img;
 
     }
 
